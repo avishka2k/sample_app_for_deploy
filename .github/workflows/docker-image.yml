@@ -15,7 +15,7 @@ jobs:
     steps:
       - 
         name: print secret
-        run: echo ${{ secrets.DOCKER_USERNAME }}
+        run: echo ${{ vars.MYNAME }}
       - 
         name: Docker login
         uses: docker/login-action@v3
