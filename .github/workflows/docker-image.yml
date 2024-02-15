@@ -28,6 +28,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: user/app:latest
+          tags: avishka2k/smaple_action:latest
         # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
