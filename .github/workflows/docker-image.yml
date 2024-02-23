@@ -8,8 +8,8 @@ on:
 
 env:
   PROJECT_ID: devops-world-409303
-  GAR_LOCATION: avishka2k/smaple_action:latest
-  SERVICE: sample_deploy
+  GAR_LOCATION: "avishka2k/smaple_action:latest"
+  SERVICE: sample-deploy
   REGION: us-central1
 
 jobs:
